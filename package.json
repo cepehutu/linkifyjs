@@ -26,5 +26,6 @@
   },
   "scripts": {
     "test": "grunt test --verbose"
-  }
+  },
+  "main": "dist/jquery.linkify.js"
 }
