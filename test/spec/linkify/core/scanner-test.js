@@ -63,6 +63,7 @@ var tests = [
 	['comm', [DOMAIN], ['comm']],
 	['abc 123  DoReMi', [DOMAIN, WS, NUM, WS, DOMAIN], ['abc', ' ',  '123', '  ', 'DoReMi']],
 	['abc 123 \n  DoReMi', [DOMAIN, WS, NUM, WS, NL, WS, DOMAIN], ['abc', ' ',  '123', ' ', '\n', '  ', 'DoReMi']],
+	['loc', [TLD], ['loc']],
 	['local', [TLD], ['local']],
 	['localhost', [LOCALHOST], ['localhost']],
 	['localhosts', [DOMAIN], ['localhosts']],
